@@ -3,7 +3,7 @@
 ## 1. Create  Windows Server 2019 VM
 ```console
 $ az group create --name Win-Server-RG --location japanwest
-$ az vm create -g Win-Server-RG --name Win-Svr2019-VM --image win2019datacenter --admin-username azureuser --admin-password Azure12345678!
+$ az vm create -g Win-Server-RG --name Win-Svr2019-VM --image win2019datacenter --admin-username xxxxxx --admin-password XXXXXXX
 $ az vm show -g Win-Server-RG --name Win-Svr2019-VM -d --query [publicIps] -o tsv
 ```
 >**Attention: please change to your username and password.**
