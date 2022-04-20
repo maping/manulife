@@ -22,7 +22,7 @@ Success Restart Needed Exit Code      Feature Result
 True    Yes            SuccessRest... {Containers}
 WARNING: You must restart this server to finish the installation process.
 ```
->**Important: Restart VM after installing this feature.**
+>**Important: Restart VM after installing docker.**
 
 ### 2.2 Install Docker
 Open a PowerShell terminal as Administrator 
