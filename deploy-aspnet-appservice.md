@@ -1,4 +1,4 @@
-# Deploy ASP.NET to Azure App Service
+# Deploy a ASP.NET App to Azure App Service
 
 ## 1. Create  Windows Server 2019 VM
 ```console
