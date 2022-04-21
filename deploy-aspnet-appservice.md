@@ -1,6 +1,6 @@
 # Deploy a ASP.NET App to Azure App Service
 
-## 1. ## 3. Create a Web App
+## 1. Create a Web App
 ```console
 $ dotnet new webapp -o MyWebApp --no-https -f net6.0
 The template "ASP.NET Core Web App" was created successfully.
@@ -13,7 +13,7 @@ Running 'dotnet restore' on C:\code\dotnet\MyWebApp\MyWebApp.csproj...
 Restore succeeded.
 ```
 
-## 2. Run Web App
+## 2. Run Web App Locally
 ```console
 $ cd MyWebApp
 $ dotnet watch
@@ -33,8 +33,6 @@ info: Microsoft.Hosting.Lifetime[0]
       Content root path: C:\code\dotnet\MyWebApp\
 ```
 Visit http://localhost:5276/
-
-
 
 ## Reference
 - [ASP.NET Tutorial - Hello World in 5 minutes](https://dotnet.microsoft.com/en-us/learn/aspnet/hello-world-tutorial/intro)
