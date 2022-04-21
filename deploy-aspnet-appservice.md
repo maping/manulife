@@ -34,6 +34,44 @@ info: Microsoft.Hosting.Lifetime[0]
 ```
 Visit http://localhost:5276/
 
+## 3. Deploy the Web App to Azure App Service
+```console
+$ cd MyWebApp
+$ az webapp up -g ASPNET-RG -p mapingaspnet --sku F1 --name mapingaspnet --os-type windows -l japanwest
+The webapp 'mapingaspnet' doesn't exist
+Creating Resource group 'ASPNET-RG' ...
+Resource group creation complete
+Creating AppServicePlan 'mapingaspnet' ...
+Creating webapp 'mapingaspnet' ...
+Configuring default logging for the app, if not already enabled
+Creating zip with contents of dir C:\code\dotnet\MyWebApp ...
+Getting scm site credentials for zip deployment
+Starting zip deployment. This operation can take a while to complete ...
+Deployment endpoint responded with status code 202
+You can launch the app at http://mapingaspnet.azurewebsites.net
+Setting 'az webapp up' default arguments for current directory. Manage defaults with 'az configure --scope local'
+--resource-group/-g default: ASPNET-RG
+--sku default: F1
+--plan/-p default: mapingaspnet
+--location/-l default: japanwest
+--name/-n default: mapingaspnet
+Parameter persistence is turned on. Its information is saved in working directory C:\code\dotnet\MyWebApp. You can run `az config param-persist off` to turn it off.
+Your preference of --resource-group: ASPNET-RG, --name: mapingaspnet, --location: japanwest are now saved as persistent parameter. To learn more, type in `az config param-persist --help`
+{
+  "URL": "http://mapingaspnet.azurewebsites.net",
+  "appserviceplan": "mapingaspnet",
+  "location": "japanwest",
+  "name": "mapingaspnet",
+  "os": "Windows",
+  "resourcegroup": "ASPNET-RG",
+  "runtime_version": "dotnet|5",
+  "runtime_version_detected": "6.0",
+  "sku": "FREE",
+  "src_path": "C:\\code\\dotnet\\MyWebApp"
+}
+```
+Visit http://mapingaspnet.azurewebsites.net
+
 ## Reference
 - [ASP.NET Tutorial - Hello World in 5 minutes](https://dotnet.microsoft.com/en-us/learn/aspnet/hello-world-tutorial/intro)
 - [Quickstart: Deploy an ASP.NET web app](https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=net60&pivots=development-environment-cli)
