@@ -52,4 +52,4 @@ Hello, World!
 ```
 
 ## Reference
-- [Hello World in 5 minutes](https://dotnet.microsoft.com/en-us/learn/dotnet/hello-world-tutorial/install）
+- [.NET Tutorial - Hello World in 5 minutes](https://dotnet.microsoft.com/en-us/learn/dotnet/hello-world-tutorial/install)
