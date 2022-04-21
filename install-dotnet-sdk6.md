@@ -45,6 +45,7 @@ Running 'dotnet restore' on C:\code\dotnet\MyApp\MyApp.csproj...
 Restore succeeded.
 ```
 
+## 4. Run App
 ```console
 $ cd MyApp
 $ dotnet run
