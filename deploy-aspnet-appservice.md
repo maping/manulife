@@ -1,5 +1,10 @@
 # Deploy a ASP.NET App to Azure App Service
 
+## 0. Install Azure CLI
+Download [Azure CLI](https://aka.ms/InstallAzureCliWindows) 
+
+Double click to install.
+
 ## 1. Create a Web App
 ```console
 $ dotnet new webapp -o MyWebApp --no-https -f net6.0
