@@ -1,4 +1,4 @@
-# Deploy a ASP.NET App to Azure App Service
+# Deploy a ASP.NET App to Azure App Service (.NET 6.0)
 
 ## 0. Install Azure CLI
 Download [Azure CLI](https://aka.ms/InstallAzureCliWindows) 
